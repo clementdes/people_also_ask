@@ -4,9 +4,6 @@ import os
 import re
 import setuptools
 
-googletld=input('Google TLD you want to search: ')
-
-
 def local_file(file):
     return codecs.open(
         os.path.join(os.path.dirname(__file__), file), 'r', 'utf-8'
